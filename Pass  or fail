@@ -1,0 +1,29 @@
+Sno=int(input('enter student no.:  '))
+Sname=input('enter student name:  ')
+Scourse=input('enter student course:  ')
+S1=int(input('enter maths marks:  '))
+S2=int(input('enter physics marks:  '))
+S3=int(input('enter computers marks:  '))
+S4=int(input('enter chemistry marks:  '))
+S5=int(input('enter economics marks:  '))
+S6=int(input('enter history marks:  '))
+total=S1+S2+S3+S4+S5+S6
+avg=total/6
+if (S1>34) :
+    if S2>34:
+        if S3>34:
+            if S3>34:
+                if S4>34:
+                    if S5>34:
+                        if S6>34:
+                            print('pass')
+
+else:
+    print('fail')
+if (S1>34):
+    if S2>34:
+        if S3>34:
+            if S4>34:
+                if S5>34:
+                       if S6>34:
+                           print('average : ',avg)
